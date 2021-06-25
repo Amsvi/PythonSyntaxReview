@@ -46,8 +46,19 @@ print(f1)
 Fruit =['Apple','Orange','banana']
 Fruit[0]='Orange'
 print(Fruit)
-
 #immutable = Error
 S = 'Ali'
 S[0] = 'a'
 print(S)
+
+#shallow copy,
+nums = [1,2,3,4,5]
+nums1= nums
+nums1[0] = 11
+print(nums)
+
+#DeepCopy
+nums2 = nums.copy()
+nums2[0]= 9
+print(nums)
+print(nums2)

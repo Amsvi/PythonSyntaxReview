@@ -1,5 +1,5 @@
 f = [1,2,3,4,5,6,7,0,4]
-#the number of list
+#the number of List
 n= len(f)
 print(n)
 #--------
@@ -8,7 +8,7 @@ s=sum(f)
 mu=s/n
 print(mu)
 #---------
-#empty list/considered as null and false
+#empty List/considered as null and false
 f1= []
 #-----
 f1.append(2)

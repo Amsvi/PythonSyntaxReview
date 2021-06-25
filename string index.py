@@ -3,7 +3,7 @@
 
 #[start:end:step]
 t = ['asdasd','adasdasd',2]
-#mutable= list /immutable=string
+#mutable= List /immutable=string
 #ordered
 #-----------------
 s = 'abcjdefghijklmnojpqrst'
@@ -25,7 +25,7 @@ for i in range(n):
     print(a)
 
 #-------
-#mutable list
+#mutable List
 Fruit =['Apple','Orange','banana']
 Fruit[0]='Orange'
 print(Fruit)
@@ -56,7 +56,7 @@ print(type(num2))
 num3 = float(input('Enter another value: '))
 print(num2+num3)
 
-#make a list according to the seprator
+#make a-List according to the seprator
 s = 'ab,123'
 print(s.split(','))
 #reverse index/find

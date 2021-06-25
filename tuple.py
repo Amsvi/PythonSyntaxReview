@@ -1,6 +1,6 @@
 #taple , dic ,loop, file ,def , class , exception, sqlite3, array,
 
-#tuple ( like list () [] ) is ordered immutable object.
+#tuple ( like List () [] ) is ordered immutable object.
 t1=(1,2,3,4,5)
 # in tuple for one element we should use ,
 t2= (0,)

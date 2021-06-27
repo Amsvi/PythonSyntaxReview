@@ -52,3 +52,41 @@ d5['nums'].append(3)
 print(d5.keys())
 print(d5.values())
 print(d5['nums'])
+
+#------------------
+# default dic int
+from collections import defaultdict
+d6 = defaultdict(int)
+d6['a']+=2
+print(d6['a'])
+d6['a']+=3
+print(d6['a'])
+#---------
+account = defaultdict(int)
+account['ali']+=20
+print(account['ali'])
+account['ali']-=15
+print(account['ali'])
+account['ali']*=1.15
+print(account['ali'])
+account['ali']/=0.5
+print(account['ali'])
+#------------------
+from collections import defaultdict
+
+rain = defaultdict(list)
+
+rain['aliabad'].append(3)
+rain['gorgan'].append(5)
+rain['gonbad'].append(5)
+rain['day'].append(1)
+rain['employee'].append('bairam')
+
+rain['aliabad'].append(13)
+rain['gorgan'].append(15)
+rain['gonbad'].append(15)
+rain['day'].append(2)
+rain['employee'].append('amir')
+
+print(rain.keys())
+print(rain.values())
